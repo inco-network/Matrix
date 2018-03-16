@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Web
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "inco-network", "http://localhost:50832", "{3807EE65-9386-4473-AA65-15A3671E170D}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
@@ -22,6 +24,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "inco-network", "http://loca
 		SlnRelativePath = "..\..\My Web Sites\EmptySite1\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4113454F-99A0-49BB-92E3-6594B042E5E1}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {791DD946-E18F-4A2F-B890-D2DDAF65C164}
 	EndGlobalSection
 EndGlobal
